@@ -1,10 +1,13 @@
 import React from "react";
 import AppRoutes from "../router/index"
+import Baselayout from "./components/Baselayout";
 import "./App.css";
 
 function App() {
   return (
-  <AppRoutes />
+    <Baselayout>
+    <AppRoutes />
+    </Baselayout>
   );
 }
 
