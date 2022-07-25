@@ -6,7 +6,7 @@ function Homepage() {
     <div>
         <Header />
 
-        <p className=' text-2xl'>this is home page</p>
+        <p className=' text-2xl'></p>
 
     </div>
   )
